@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    background-color: #F0F4F8;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Form Styles */
+.resume-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #3498DB;
+    background-image: linear-gradient(145deg, #E3F2FD, #E0F7FA);
+}
+
+.resume-form h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+.resume-form input,
+.resume-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #FAFAFA;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.resume-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF6F61;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-form button:hover {
+    background-color: #E64A19;
+}
+
+/* Resume Output Styles */
+.resume-output {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    border-left: 5px solid #1ABC9C;
+}
+
+.resume-output h1,
+.resume-output h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    color: #2C3E50;
+}
+
+.resume-output p {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+    color: #555555;
+}
+
+.resume-output ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.resume-output li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    background-color: #E9ECEF;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.resume-output button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1E88E5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-output button:hover {
+    background-color: #1565C0;
+}
+
+/* Styles for the Done Button */
+#done-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #28A745; /* Green color for done button */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#done-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-form,
+    .resume-output {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .resume-form h2,
+    .resume-output h1,
+    .resume-output h2 {
+        font-size: 22px;
+    }
+
+    .resume-form input,
+    .resume-form textarea,
+    .resume-output p,
+    .resume-output li {
+        font-size: 14px;
+    }
+}
+
